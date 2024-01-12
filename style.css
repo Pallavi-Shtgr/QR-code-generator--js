@@ -15,12 +15,16 @@ body {
 }
 
 .wrapper {
-    background: #fff;
+    height: 260px;
     max-width: 410px;
+    background: #fff;
     border-radius: 7px;
     padding: 16px;
 }
 
+.wrapper .active{
+    height: 530px;
+}
 header h1{
     font-size: 21px;
     font-weight: 500;
@@ -57,4 +61,15 @@ header p{
     margin-top: 20px;
     font-size: 17px;
     background: #3498DB;
+}
+
+.wrapper .qr-code{
+    display: flex;
+    opacity: 0;
+    padding: 33px 0;
+    border: 1px solid #ccc;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    pointer-events: none;
 }
